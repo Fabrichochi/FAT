@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(219, 217, 217);
+}
+.container{
+    width: 500px;
+    padding: 30px;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.Titulo{
+    text-align: center;
+    border: solid rgb(112, 111, 111) 1px;
+    border-style: inset;
+    font-size: larger;
+}
+.mayor{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(112, 111,111) 1px;
+}
+.nombre,.email,.usuario,.contraseña{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+.input{
+    padding: 10px;
+}
+.boton{
+    background: rgb(173, 173, 19);
+    font-style: italic;
+    padding: 10px;
+    
+}
+.registrado{
+    margin: auto;
+}
+.registrado button a{
+    text-decoration: none;
+}
+.boton2{
+    background: rgb(173, 173, 19);
+    font-style: italic;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.Tabla{
+    width: 1450px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.palabra{
+    padding-left: 30px;
+    
+}
+.boton3{
+    padding-left: 30px;
+    background: rgb(173, 173, 19);
+    font-style: italic;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
